@@ -26,6 +26,20 @@ int main ()
   printf ("\n\nNumber %d is equal 0.\n\n", number);
 
   puts ("\n\n\t\tThanks for your patient. See you later.\n\n");
+  
+  puts("Ile liter t ma wyraz Bonanza?\n");
+  puts("72\n");
+  puts("Tam taram taram taram taram tam tam taaam\n");
+  puts("Tam taram taram taram taram tam tam tam\n");
+  puts("Tam tam tam tam tam tam tam tara tam tam\n");
+
+  puts("\n:);
+
+  puts("Ile liter t ma wyraz Bonanza?\n");
+  puts("72\n");
+  puts("Tam taram taram taram taram tam tam taaam\n");
+  puts("Tam taram taram taram taram tam tam tam\n");
+  puts("Tam tam tam tam tam tam tam tara tam tam\n");
 
   return 0;
 
