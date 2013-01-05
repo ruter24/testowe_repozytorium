@@ -1,17 +1,32 @@
-# Object files
-*.o
+#include <stdio.h>
 
-# Libraries
-*.lib
-*.a
+int main ()
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+{
 
-# Executables
-*.exe
-*.out
-*.app
+  int number = 0;
+
+  puts ("\t\tThis is simply application for nobody. Greatings from Poland :D\n\n");
+  printf ("Please choose a number and remember it must be integer.\n");
+  printf ("Type your number:");
+  scanf ("%d", &number);
+  
+  if (number < 0)
+
+  printf ("\n\nNumber %d is less than 0\n\n", number);
+
+  else
+
+  if (number > 0)
+
+  printf ("\n\nNumber %d is less than 0\n\n", number);
+
+  else
+
+  printf ("\n\nNumber %d is equal 0.\n\n", number);
+
+  puts ("\n\n\t\tThanks for your patient. See you later.\n\n");
+
+  return 0;
+
+}
